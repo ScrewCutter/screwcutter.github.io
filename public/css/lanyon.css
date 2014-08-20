@@ -564,5 +564,7 @@ a.pagination-item:hover {
 @media only screen and (max-width: 760px) {
 body #hellobar-wrapper,
 body #hellobar-pusher {
+.large, .right, .has_border, .remains_at_top{ 
 display: none !important;
 }
+      
