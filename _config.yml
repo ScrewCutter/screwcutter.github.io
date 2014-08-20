@@ -9,13 +9,13 @@ permalink:        pretty
 title:            The Screw Cutter Project
 tagline:          'Recent News'
 description:      '<a href="http://screwcutter.com" target="_blank">The Screw Cutter Project</a> uses this space to update those interested in our project. Would you like to learn more? Email the team at <a href="mailto:hello@screwcutter.com">hello@screwcutter.com</a>'
-url:              'http://screwcutter.com'
-baseurl:          'http://blog.screwcutter.com'
+url:              http://blog.screwcutter.com
+baseurl:          '/'
 paginate:         3
 
 author:
   name:           'Gregory Allan'
-  url:            'https://twitter.com/greg2differ'
+  url:            https://twitter.com/greg2differ
 
 # Custom vars
 version:          1.0.0
