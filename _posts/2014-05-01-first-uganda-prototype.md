@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype V1 Shipped to Uganda
+title: Version One Prototype Shipped to Uganda
 published: true
 ---
 
