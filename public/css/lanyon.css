@@ -124,8 +124,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-a#hellobar-logo, a#hellobar-logo:link, a#hellobar-logo:visited {
+#hellobar.large a.hellobar_logo img {
 display: none !important;
+}
+#hellobar a img {
+  display: none !important;
 }
 
 /*
