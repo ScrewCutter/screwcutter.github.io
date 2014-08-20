@@ -47,10 +47,12 @@
       
       
       var uagent = navigator.userAgent.toLowerCase();
-       if (uagent.search("iphone") > -1 || uagent.search("blackberry") > -1 || ugant.search("android") > -1)
-          alert('true');
-       else
-      	  {% include hellobar.html %};
+      if (uagent.search("iphone") > -1) {
+          alert('true'); 
+      }
+      else {
+      	  alert('false');
+          }
 
     </script>    
   </body>
