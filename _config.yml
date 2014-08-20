@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            The Screw Cutter Project
 tagline:          'Recent News'
-description:      '&nbsp&nbsp&nbsp&nbsp&nbsp<a href="http://screwcutter.com" target="_blank">The Screw Cutter Project</a> uses this space to update those interested in our project. Would you like to learn more? Email the team at <a href="mailto:hello@screwcutter.com">hello@screwcutter.com</a>'
+description:      ''
 url:              http://blog.screwcutter.com
 baseurl:          '/'
 paginate:         3
