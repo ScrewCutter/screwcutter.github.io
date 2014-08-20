@@ -36,7 +36,6 @@
 
         document.addEventListener('click', function(e) {
           var target = e.target;
-
           if(!checkbox.checked ||
              sidebar.contains(target) ||
              (target === checkbox || target === toggle)) return;
@@ -44,6 +43,12 @@
           checkbox.checked = false;
         }, false);
       })(document);
+      
+      var uagent = navigator.userAgent.toLowerCase();
+       if (uagent.search("iphone") > -1)
+          alert('true');
+       else
+          alert('false');
     </script>    
   </body>
 
