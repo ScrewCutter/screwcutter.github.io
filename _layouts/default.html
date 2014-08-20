@@ -3,11 +3,11 @@
   
   {% include head.html %}
   {% include google_analytics.html %}
-              {% include sidebar.html %}
+  {% include sidebar.html %}
 
   
 
-  <body>
+  <body class="sidebar-overlay">
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -44,8 +44,6 @@
         }, false);
       })(document);
     </script>
-  	{% include hellobar.html %}
-
   </body>
 
 </html>
