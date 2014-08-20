@@ -13,13 +13,6 @@
  * https://github.com/poole/poole.
  */
 
-#hellobar.large a.hellobar_logo img {
-display: none !important;
-}
-#hellobar a img {
-  display: none !important;
-}
-
 
 /*
  * Contents
