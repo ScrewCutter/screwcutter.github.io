@@ -2,7 +2,7 @@
 layout: post
 title: Prototype V1 Shipped to Uganda
 ---
-<div class="message"> Pictured: Dr. Blachut and Dr. O'Brien introduce the V1 Screw Cutter on their Uganda Sustainable Trauma Orthopaedic [USTOP](http://ustop.orthopaedics.med.ubc.ca) trip.</div>
+<div class="message"> Pictured: Dr. Blachut and Dr. O'Brien introduce the V1 Screw Cutter on their Uganda Sustainable Trauma Orthopaedic [USTOP](http://ustop.orthopaedics.med.ubc.ca) [Jekyll](http://jekyllrb.com) trip.</div>
 
 
 ![Screw Cutter Workshop]({{ site.url }}/images/screw_cutter_mp4.png "Uganda Surgeons Assess Screw Cutter")
