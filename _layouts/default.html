@@ -28,6 +28,21 @@
 
 	<label for="sidebar-checkbox" class="sidebar-toggle"></label>
     <script>
+      
+      var uagent = navigator.userAgent.toLowerCase();
+      if (uagent.search("iphone") > -1) {
+          alert('true'); 
+      }
+      else if(uagent.search("blackberry") > -1) {
+        alert('true');
+      }
+      else if(uagent.search("android") > -1) {
+          alert('true');
+      }
+      else {
+  		  {% include hellobar.html %}
+          }
+        
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
@@ -45,19 +60,7 @@
       
       
       
-      var uagent = navigator.userAgent.toLowerCase();
-      if (uagent.search("iphone") > -1) {
-          alert('true'); 
-      }
-      else if(uagent.search("blackberry") > -1) {
-        alert('true');
-      }
-      else if(uagent.search("android") > -1) {
-          alert('true');
-      }
-      else {
-  		  {% include hellobar.html %}
-          }
+     
 
     </script>    
   </body>
