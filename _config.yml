@@ -10,7 +10,7 @@ title:            The Screw Cutter Project
 tagline:          'Recent News'
 description:      '<a href="http://screwcutter.com" target="_blank">The Screw Cutter Project</a> uses this space to update those interested in our project. Would you like to learn more? Email the team at <a href="mailto:hello@screwcutter.com">hello@screwcutter.com</a>'
 url:              http://blog.screwcutter.com
-baseurl:          '/'
+baseurl:          'http://blog.screwcutter.com'
 paginate:         3
 
 author:
